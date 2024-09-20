@@ -10,3 +10,27 @@ Smooth Markdown App is a lightweight and fast Markdown editor built for a seamle
 - React: For building interactive UI
 - TypeScript: For safer, scalable code
 - Markdown-it: Efficient Markdown parser
+
+### Dependencies
+
+- Framer-motion
+- Zustand
+- @kuma-ui/core
+- modern-normalize
+- yaml
+
+### Dev Dependencies
+
+- @kuma-ui/vite
+- prettier
+- @ianvs/prettier-plugin-sort-imports
+- hast
+- mdast
+- rehype-react
+- rehype-slug
+- remark-frontmatter
+- remark-gfm
+- remark-parse
+- remark-rehype
+- unified
+- unist-util-visit
