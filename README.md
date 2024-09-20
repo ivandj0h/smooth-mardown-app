@@ -34,3 +34,7 @@ Smooth Markdown App is a lightweight and fast Markdown editor built for a seamle
 - remark-rehype
 - unified
 - unist-util-visit
+
+### Credits
+
+[ivan](https://linkedin.com/in/ivandjoh)
