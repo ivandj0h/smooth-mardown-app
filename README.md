@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Smooth Markdown App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
 
-Currently, two official plugins are available:
+Smooth Markdown App is a lightweight and fast Markdown editor built for a seamless writing experience. It offers real-time preview and easy formatting with an intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
 
-## Expanding the ESLint configuration
+- Bun: Fast JavaScript runtime for modern apps
+- React: For building interactive UI
+- TypeScript: For safer, scalable code
+- Markdown-it: Efficient Markdown parser
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Dependencies
 
-- Configure the top-level `parserOptions` property like this:
+- Framer-motion
+- Zustand
+- @kuma-ui/core
+- modern-normalize
+- yaml
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Dev Dependencies
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- @kuma-ui/vite
+- prettier
+- @ianvs/prettier-plugin-sort-imports
+- hast
+- mdast
+- rehype-react
+- rehype-slug
+- remark-frontmatter
+- remark-gfm
+- remark-parse
+- remark-rehype
+- unified
+- unist-util-visit
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Credits
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[ivan](https://linkedin.com/in/ivandjoh)
